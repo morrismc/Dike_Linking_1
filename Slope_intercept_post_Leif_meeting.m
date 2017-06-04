@@ -1,37 +1,11 @@
 %%%% This is the fourth attempt at the slope intercept form of dike linking
 %%%% Todo list
 
-%%% 1) rotate xes by angle phi, to avoid infinite slope case
-%%% (X1,Y1) = [cos(phi) - sin(phi)
-%%%             sin(phi) + cos(phi)]   * [xo yo]
-
-%%% for loop to go throuh all dikes 
-
-% for y = 1:n
-%     for j = 1:n
-%         D(i,j) = sqrt((xi - xj)^2 + (y(i) - y(j))^2)
-%     end
-% end
-% 
-
-% 
-% Looking into different types of distances
-%     distances
-%     similarities
-%     manlonopis distance
-%     covariance is the range of y (slope) + mean of whole dataset
-%     
-%     
-% read about covariance vs correlation
-% 
-% relationship between width and length 
-% 
-% with dikes then look into kmeans clustering where cluster flattens
-% tutorial/similarity
 %%
 clc 
 clear all
 
+cd('/Users/Matthew/GitHub/Dike_linking');
 
 %slope intercept script 3
 % certain pre-processing of the dikes took place in Arcgis, removing

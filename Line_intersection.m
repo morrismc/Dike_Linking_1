@@ -1,35 +1,7 @@
-%%%% This is the fourth attempt at the slope intercept form of dike linking
-%%%% Todo list
-
-%%% 1) rotate xes by angle phi, to avoid infinite slope case
-
-%%% (X1,Y1) = [cos(phi) - sin(phi)
-%%%             sin(phi) + cos(phi)]   * [xo yo]
-
-
-%%% for loop to go throuh all dikes 
-
-% for y = 1:n
-%     for j = 1:n
-%         D(i,j) = sqrt((xi - xj)^2 + (y(i) - y(j))^2)
-%     end
-% end
-% 
-
-% 
-% Looking into different types of distances
-%     distances
-%     similarities
-%     manlonopis distance
-%     covariance is the range of y (slope) + mean of whole dataset
-%     
-%     
-% read about covariance vs correlation
-% 
-% relationship between width and length 
-% 
-% with dikes then look into kmeans clustering where cluster flattens
-% tutorial/similarity
+% this attempt at linking of dikes will look at extending dikes to the Y
+% axis or to the edges of the domain and then looking for the dikes at some
+% close distance (or their midpoints are at some distance that is not too
+% vast from the line created.  
 %%
 clc 
 clear all
